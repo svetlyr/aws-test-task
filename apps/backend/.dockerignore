@@ -1,0 +1,35 @@
+# Dependency directories
+node_modules
+npm-debug.log
+
+# Version control
+.git
+.gitignore
+
+# Build output
+dist
+
+# Various IDEs and editors
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test files
+coverage
+*.test.ts
+*.spec.ts
+test
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+docs
+
+# dev config
+webpack-hmr*.js
