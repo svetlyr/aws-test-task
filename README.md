@@ -33,15 +33,6 @@ cp .env.example .env.development
 ```
 And fill in the env vars.
 
-### Accessing Swagger UI
-
-To explore and interact with the API endpoints using Swagger UI, follow these steps:
-
-
-
-You are now ready to explore and interact with the API endpoints using Swagger UI.
-
-
 ### Local Development
 
 To start the project for local development with custom hot module reloading (HMR) webpack config:
