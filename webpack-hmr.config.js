@@ -1,6 +1,8 @@
 const nodeExternals = require('webpack-node-externals');
 const { RunScriptWebpackPlugin } = require('run-script-webpack-plugin');
 
+const path = require('path');
+
 module.exports = function (options, webpack) {
   return {
     ...options,
@@ -23,5 +25,12 @@ module.exports = function (options, webpack) {
         autoRestart: false,
       }),
     ],
+    resolve: {
+      ...options.resolve,
+      alias: {
+        '@': path.resolve(__dirname, 'src/'),
+        '@modules': path.resolve(__dirname, 'src/module/'),
+      },
+    },
   };
 };

@@ -1,0 +1,41 @@
+[
+  {
+    "name": "JohnTest",
+    "playlists": [
+      {
+        "name": "Workout Mix",
+        "type": "PUBLIC",
+        "songs": ["Eye of the Tiger", "Thunderstruck", "Lose Yourself"]
+      },
+      {
+        "name": "Chill Mix",
+        "type": "PRIVATE",
+        "songs": ["Eye of the Tiger", "Thunderstruck", "Lose Yourself"]
+      }
+    ]
+  },
+  {
+    "name": "JohnDoe",
+    "playlists": [
+      {
+        "name": "Chill Vibes",
+        "type": "PRIVATE",
+        "songs": ["Dreams", "Wonderwall", "Don't Worry, Be Happy"]
+      }
+    ]
+  },
+  {
+    "name": "AliceSmith",
+    "playlists": [
+      {
+        "name": "Road Trip Playlist",
+        "type": "PUBLIC",
+        "songs": [
+          "Life is a Highway",
+          "Take Me Home, Country Roads",
+          "Hotel California"
+        ]
+      }
+    ]
+  }
+]
